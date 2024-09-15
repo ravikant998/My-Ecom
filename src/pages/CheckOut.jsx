@@ -47,6 +47,7 @@ const CheckOut = ({ setOrder }) => {
       shippingInformation: shippingInfo,
       totalPrice: cart.totalPrice,
     };
+    console.log("newOrder", newOrder);
     setOrder(newOrder);
     navigate("/order-confirmation");
   };
@@ -276,7 +277,7 @@ const CheckOut = ({ setOrder }) => {
             </div>
             <button
               className="w-full bg-red-600 text-white py-2 mt-6 hover:bg-red-800 "
-              // onClick={handleOrder}
+              onClick={handleOrder}
             >
               Place order
             </button>
