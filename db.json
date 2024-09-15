@@ -1,0 +1,36 @@
+{
+  "register": [
+    {
+      "id": "155f",
+      "name": "Ravikant",
+      "email": "anil@gmail.com",
+      "phone": "9818288174",
+      "password": "123456",
+      "confirmpassword": "123456"
+    }
+  ],
+  "cart": [
+    {
+      "id": 4,
+      "image": "/src/assets/Images/headphone.jpeg",
+      "name": "HeadPhone",
+      "price": 4500
+    },
+    {
+      "id": 5,
+      "image": "/src/assets/Images/sandle.jpeg",
+      "name": "Sandle",
+      "price": 420
+    },
+    {
+      "id": 3,
+      "image": "/src/assets/Images/cap.jpeg",
+      "name": "Cap",
+      "price": 290
+    }
+  ],
+  "cartTotal": {
+    "totalQuantity": 1,
+    "totalPrice": 100
+  }
+}
